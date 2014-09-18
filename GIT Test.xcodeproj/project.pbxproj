@@ -21,6 +21,7 @@
 		0886035B19CA8E29005338E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0886033D19CA8E29005338E1 /* UIKit.framework */; };
 		0886036319CA8E29005338E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0886036119CA8E29005338E1 /* InfoPlist.strings */; };
 		0886036519CA8E29005338E1 /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886036419CA8E29005338E1 /* GIT_TestTests.m */; };
+		0886037019CA90CB005338E1 /* TEGTestGITFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0886036F19CA90CB005338E1 /* TEGTestGITFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0886036019CA8E29005338E1 /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		0886036219CA8E29005338E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0886036419CA8E29005338E1 /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		0886036E19CA90CB005338E1 /* TEGTestGITFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEGTestGITFile.h; sourceTree = "<group>"; };
+		0886036F19CA90CB005338E1 /* TEGTestGITFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEGTestGITFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				0886034819CA8E29005338E1 /* TEGAppDelegate.h */,
+				0886036E19CA90CB005338E1 /* TEGTestGITFile.h */,
+				0886036F19CA90CB005338E1 /* TEGTestGITFile.m */,
 				0886034919CA8E29005338E1 /* TEGAppDelegate.m */,
 				0886034B19CA8E29005338E1 /* Main.storyboard */,
 				0886034E19CA8E29005338E1 /* TEGViewController.h */,
@@ -253,6 +258,7 @@
 				0886034619CA8E29005338E1 /* main.m in Sources */,
 				0886035019CA8E29005338E1 /* TEGViewController.m in Sources */,
 				0886034A19CA8E29005338E1 /* TEGAppDelegate.m in Sources */,
+				0886037019CA90CB005338E1 /* TEGTestGITFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
